@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url(../fonts/Nexa-Bold.otf) format('truetype');
+    src: url(../fonts/Nexa-Light.otf) format('truetype');
+  }
+* {
+      font-family: 'Nexa';
+    }
+
+nav {
+    width: auto;
+    height: 50px;
+}
+nav img {
+    width: 200px;
+    align-self: flex-end;
+}
+
+nav .fas,.fa-bars {
+    display: flex;
+    align-self: center;
+    float: right;
+}
