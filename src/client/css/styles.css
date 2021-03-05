@@ -10,14 +10,14 @@
 nav {
     width: auto;
     height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 nav img {
     width: 200px;
-    align-self: flex-end;
 }
-
-nav .fas,.fa-bars {
-    display: flex;
-    align-self: center;
+nav i {
+    margin: 10px 15px;
     float: right;
-}
+    align-self: center;
+ }
