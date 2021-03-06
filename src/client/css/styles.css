@@ -1,23 +1,98 @@
 @font-face {
-    font-family: 'Nexa';
+    font-family: 'Nexa-bold';
     src: url(../fonts/Nexa-Bold.otf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Nexa-light';
     src: url(../fonts/Nexa-Light.otf) format('truetype');
   }
+ 
 * {
-      font-family: 'Nexa';
+    box-sizing: border-box;
+      font-family: "Nexa";
     }
 
 nav {
     width: auto;
     height: 50px;
+    margin: 10px 10px 0px 10px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 nav img {
-    width: 200px;
+    width: 110px;
+    height: 40px;
 }
 nav i {
     margin: 10px 15px;
     float: right;
     align-self: center;
+ }
+
+ /*Section "Main-Search" Css */
+ .main-search {
+     width: auto;
+     height: auto;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    background-color: #84badf;
+   
+    
+ }
+ .main-search h1 {
+     display: flex;
+     font-family: "Nexa-bold",sans-serif;
+     font-size: 25px;
+     font-weight: bolder;
+     margin-bottom: 5px;
+     justify-content: center;
+     color: #081c4d;
+ }
+ .main-search p {
+     display: flex;
+     font-family: "Nexa-light";
+     font-weight:100;
+     line-height: 120%;
+     margin: 20px 0px;
+     font-size: 17px;
+     justify-content: center;
+    text-align: center;
+ }
+ .main-search .fas.fa-map-marker-alt {
+     left: 30px;
+     margin-top: 10px;
+     position:absolute;
+ }
+ .main-search .fas.fa-street-view {
+     position: absolute;
+     right: 35px;
+     margin-top:10px;
+
+ }
+ .main-search-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .main-search-input input {
+     font-family: "Nexa-light";
+     width: 100%;
+     height: 40px;
+     border: none;
+     font-size: 12px;
+     text-align: justify;
+     margin-bottom: 10px;
+ }
+
+ Section .main-search-button {
+     margin-top: 5px;
+     color: white;
+     font-size: 14px;
+     font-family: 'Nexa-light';
+     font-weight: lighter;
+     width: 40%;
+     display: flex;
+     justify-content: center;
+     background-color: #081c4d;
  }
